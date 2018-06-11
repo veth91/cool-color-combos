@@ -12,6 +12,7 @@ Built with: React, and good'ole CSS. Deployed at https://veth91.github.io/cool-c
   <li>Matching .png perfectly: about 3 hrs</li>
   <p>From toggling shadows between 8px and 7px to managing padding I spent a decent amount of time trying to make a pixel perfect recreation of the source files.</p>
   <li>Deploying and cleaning up: 30 mins</li>
+  <li>Choosing appropriate Donger: Too long</li>
   <li>Total: 9.5hrs</li>
 </ul>
 
