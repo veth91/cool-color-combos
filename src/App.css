@@ -83,7 +83,7 @@ a:hover {
 
 .App-viewarea {
   display: flex;
-  flex: 4 0 80%;
+  flex: 4 80%;
   align-self: stretch;
 }
 .Swatch-list-view {
