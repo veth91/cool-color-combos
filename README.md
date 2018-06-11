@@ -1,6 +1,6 @@
 <h1>Cool Color Combos</h1>
 
-Built with: React, and good'ole CSS.
+Built with: React, and good'ole CSS. Deployed at https://veth91.github.io/cool-color-combos/
 
 <ul>
   <h3>Time spent</h3>
