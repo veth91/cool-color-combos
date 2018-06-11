@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Viewarea from './components/Viewarea';
-import { getRandomColor, generateRandomColors } from './components/ColorGenerator';
+import { generateRandomColors } from './components/ColorGenerator';
 
 
 const SELECTIONS = [

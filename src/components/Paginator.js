@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 export default function Paginator(props) {
   const { colors, currentPage, colorsPerPage } = props
   const pageNumbers = [];
+
   for(let i = 1; i <= Math.ceil(colors.length/colorsPerPage); i++) {
     pageNumbers.push(i);
   }
