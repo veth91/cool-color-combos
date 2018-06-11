@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Viewarea from './components/Viewarea';
+import { getRandomColor, generateRandomColors } from './components/ColorGenerator';
 
 
 const SELECTIONS = [
@@ -15,18 +16,8 @@ const SELECTIONS = [
   "Brown",
   "Gray"
 ]
-const colorsArr = [
-  "#0CA7EE",
-  "#0C36EE",
-  "#530CEE",
-  "#C40CEE",
-  "#EE0CA7",
-  "#EE0C36",
-  "#2BEE0C",
-  "#95132c",
-  "#cf75ab",
-  "#d31723"
-]
+
+const colorsArr = generateRandomColors(100);
 
 class App extends Component {
   constructor(props) {
@@ -35,7 +26,7 @@ class App extends Component {
       selectedColor: null,
       pageNum: 1,
       currentPage: 1,
-      colorsPerPage: 8,
+      colorsPerPage: 12,
       colors: colorsArr,
       selections: SELECTIONS
     }
@@ -61,7 +52,10 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="App-view">
-          <Sidebar changeColor={this.changeColor} colors={this.state.selections}/>
+          <Sidebar
+            changeColor={this.changeColor}
+            colors={this.state.selections}
+          />
           <Viewarea
             {...this.state}
             changeColor={this.changeColor}

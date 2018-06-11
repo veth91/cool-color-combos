@@ -36,8 +36,8 @@ export default function Swatchview(props) {
       </div>
       <div className='Color-carousel'>
         {carouselColors.map(color =>
-          <div className='Swatch-tile'>
-          <div key={color} className='Swatch-small' style={{backgroundColor: color}}>
+          <div key={color} className='Swatch-tile'>
+          <div className='Swatch small' style={{backgroundColor: color}}>
           </div>
           <h2>{color}</h2>
         </div>
