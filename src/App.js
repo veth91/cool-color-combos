@@ -16,6 +16,7 @@ const SELECTIONS = [
   "Brown",
   "Gray"
 ]
+//begin logic
 
 const colorsArr = generateRandomColors(100);
 
